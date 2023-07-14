@@ -141,6 +141,7 @@ int main(void)
   	memcpy(&width, propertiesBmp.bidWidth, 4);
   	memcpy(&height, propertiesBmp.bidHeight, 4);
 
+  	// git test
   	// 이미지 시작위치 점프
   	f_lseek(file, offset);
 
